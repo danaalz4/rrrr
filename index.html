@@ -1,21 +1,78 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>College Connect - Updates</title> <link rel="stylesheet" href="style.css">
+<html lang="en"> 
+<head> 
+<meta charset="UTF-8"> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>itc College</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header class="site-header">
-<div class="logo">🎓 College Connect</div> <div class="nav"> 
-<button class="nav-btn">Home</button> <button class="nav-btn">About us</button>
+<!-- Header -->
+<header class="header">
+<div class="logo">🎓</div>
+<input type="text" class="search-bar" placeholder="Search">
+<nav class="nav"> <a href="#" class="btn">Home</a>
+<a href="../updates/index.html" class="btn">Updates</a>
+<div class="dropdown">
+<button class="dropbtn">Options ▾</button>
+<div class="dropdown-content">
+<p>Signed in as <strong>tom@example.com</strong></p>
+<a href="#">Account Settings</a>
+<a href="#">Support</a>
+<a href="#">License</a>
+<a href="#">Sign Out</a>
 </div>
+</div>
+</nav>
 </header>
-<main class="main">
-<aside class="left-col">
-<div class="updates-box">
-<h2>Updates & Blog</h2>
-<p class="muted">Find announcements, events, and campus highlights. Use search to filter posts</p>
-<div class="search-row">
-<input type="text" placeholder="Search announcements">
-<button class="search-btn">Search</button> </div> <div class="filter-buttons"> <button>All</button> <button>Events</button> <button>Clubs</button> <button>Facilities</button> <button>News</button> </div> </div> </aside> <section class="right-col"> <div class="image-box"> <img src="pic.jpg.jpg" alt="Extra Image"> </div> </section> </main> <section class="cards-section"> <div class="card"> <h3>Extended Library Hours During Midterms</h3> <p>Oct 8, 2025 - Facilities<br>Study space open until midnight with quiet and group zones.</p> <button class="card-btn">Read more</button> </div> <div class="card"> <h3>Orientation Week Kickoff</h3> <p>Sep 1, 2025 - Events<br>Meet faculty, join tours, and grab your starter kit.</p> <button class="card-btn">Read more</button> </div> <div class="card"> <h3>AI Lab Open Night</h3> <p>Sep 10, 2025 - Clubs<br>Demos on computer vision and robotics; beginners welcome!</p> <button class="card-btn">Read more</button> </div> <div class="card"> <h3>College Website Refresh</h3> <p>Oct 10, 2025 - News<br>We're modernizing navigation, accessibility, and mobile UX.</p> <button class="card-btn">Read more</button> </div> </section> <footer class="site-footer"> <p>©2025 College Connect. Built for the Associate Diploma in Software Development</p> <a href="../project-folder/index.html">Back to Home</a> </footer> </body> </html>
+<!-- Main Title -->
+<main>
+<h1 class="main-title">itc college</h1>
+<p class="intro"> Welcome to itc College<br> Future College is dedicated to providing world-class education and innovative research. We aim to empower students with the knowledge and skills needed to thrive in today's world, while fostering creativity, leadership, and a spirit of lifelong learning. </p>
+<!-- Highlights -->
+<section class="highlights">
+<h2>Highlights</h2> <div class="cards">
+<div class="card">
+<h3>Events</h3>
+<ul>
+<li>Career Fairs</li>
+<li>Student Hackathons</li>
+<li>Weekly Tech Talks</li>
+</ul>
+</div>
+<div class="card">
+<h3>Clubs</h3>
+<ul>
+<li>Design Guild</li>
+<li>Web Development Circle</li>
+<li>AI Robotics</li>
+</ul>
+</div>
+<div class="card">
+<h3>Facilities</h3>
+<ul>
+<li>Library</li>
+<li>Quiet & group study zones</li>
+<li>Labs</li>
+<li>Modern hardware & software café</li>
+<li>Healthy snacks & coffee</li>
+</ul>
+</div>
+</div>
+</section>
+<!-- See Updates Button -->
+<div class="center">
+<button class="updates-btn" onclick="window.location.href='../updates/index.html'">See Updates</button>
+</div>
+</main>
+<!-- Footer -->
+<footer class="footer">
+<a href="#">Contact us</a> <div class="icons">
+<span>📍</span>
+<span>📞</span>
+</div>
+<p>©2025 College Connect. Beginner-friendly, professional UI</p>
+<a href="../updates/index.html">Go to Updates</a>
+</footer>
+</body>
+</html>
